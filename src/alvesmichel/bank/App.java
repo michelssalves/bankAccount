@@ -13,6 +13,9 @@ public class App {
         account.deposit(1000);
         account.deposit(1000);
         account.withDraw(600);
+        account.withDraw(600);
+
+        System.out.println((account));
 
     }
 }

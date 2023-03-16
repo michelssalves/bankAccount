@@ -70,4 +70,8 @@ public class Account {
         }
         return result;
     }
+    public String toString(){
+        String result = "A conta " + this.name + " AG: " + this.ag + " CC: " + this.cc + " tem saldo de R$ " + balance;
+        return result;
+    }
 }
